@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice-Controlled Graphics - Abstract</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container fade-in" id="abstract-content">
+    <div class="ripple-bg"></div>
+    <h1><i class="fas fa-microphone"></i> Voice-Controlled Graphics (VCG)</h1>
+    <div class="intro-text">
+      <p><strong>VCG</strong> is a cutting-edge Python-based system that lets users draw 2D graphics using voice commands. It utilizes <span class="highlight">AI-driven speech recognition</span> and <span class="highlight">turtle graphics</span> to create a hands-free visual programming environment.</p>
+    </div>
+
+    <h2><i class="fas fa-book"></i> Overview</h2>
+    <ul>
+      <li>Draw shapes like squares, circles, lines with <span class="highlight">voice</span></li>
+      <li>Powered by Python, Google Speech API & Turtle module</li>
+      <li>Great tool for education, creativity & accessibility</li>
+    </ul>
+
+    <h2><i class="fas fa-bullseye"></i> Project Goals</h2>
+    <ul>
+      <li>Empower users to draw using only speech</li>
+      <li>Assist physically challenged individuals</li>
+      <li>Encourage integration of AI with art</li>
+      <li>Promote interactive, accessible programming</li>
+    </ul>
+
+    <h2><i class="fas fa-code"></i> My Contributions</h2>
+    <ul>
+      <li>Improved voice command handling</li>
+      <li>Fixed number conversion bugs (e.g., “ten” → 10)</li>
+      <li>Implemented new commands: <span class="highlight">undo, clear, save</span></li>
+      <li>Added logging and real-time debugging support</li>
+      <li>Created a simple help assistant inside the terminal</li>
+      <li><strong>Enhanced error handling</strong> so users are informed when recognition or execution fails, improving comfort & usability</li>
+    </ul>
+
+    <h2><i class="fas fa-star"></i> Key Features</h2>
+    <ul>
+      <li>Natural-language voice commands</li>
+      <li>Undo, save & clear functions for flexibility</li>
+      <li>Responsive to continuous dictation</li>
+      <li>Supports learning shapes and basic graphics coding</li>
+    </ul>
+
+    <h2><i class="fas fa-chart-bar"></i> Accuracy Over Time</h2>
+    <canvas id="accuracyChart"></canvas>
+
+    <h2><i class="fas fa-lightbulb"></i> Impact</h2>
+    <ul>
+      <li>Improves learning speed in classrooms</li>
+      <li>Helps disabled users to code and draw</li>
+      <li>Can be used in e-learning platforms</li>
+      <li>Promotes STEM education for all levels</li>
+    </ul>
+
+    <h2><i class="fas fa-rocket"></i> Future Scope</h2>
+    <ul>
+      <li>3D shape drawing with OpenGL integration</li>
+      <li>Speech-to-code expansion for teaching Python basics</li>
+      <li>Touch & gesture recognition using sensors</li>
+      <li>Web-based version using JavaScript & WebGL</li>
+    </ul>
+
+    <button class="btn-download" onclick="downloadPDF()"><i class="fas fa-file-download"></i> Download as PDF</button>
+
+    <div class="credit">
+      <p>Base project taken from open-source internet resources. Modified, improved, and upgraded by <strong>Danish Veer Rana</strong>.</p>
+      <p>GitHub: <a href="https://github.com/danishveerrana" target="_blank">@danishveerrana</a> | Email: <a href="mailto:veerdanish452008@gmail.com">veerdanish452008@gmail.com</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</body>
+</html>
